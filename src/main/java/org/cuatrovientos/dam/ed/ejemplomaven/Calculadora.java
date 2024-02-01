@@ -26,7 +26,7 @@ public class Calculadora {
 
 		Calculadora miCalculadora = new Calculadora("empty");
 		
-		// Hago operaciones distintas segun el argumento
+		// Hago operaciones distintas segun el .. ponemos otros comentarios
 		switch (args[0]) {
 		case "sumar":
 			int resultado = miCalculadora.sumar(args[1], args[2]);
