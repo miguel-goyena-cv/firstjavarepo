@@ -25,7 +25,8 @@ public class Calculadora {
 		logger.error("Otro Hello World 1DAM: " + args[0]);
 
 		Calculadora miCalculadora = new Calculadora("empty");
-
+		
+		// Hago operaciones distintas segun el argumento
 		switch (args[0]) {
 		case "sumar":
 			int resultado = miCalculadora.sumar(args[1], args[2]);
